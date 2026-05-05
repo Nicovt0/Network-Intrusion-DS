@@ -1,0 +1,19 @@
+numpy==1.26.4
+pandas==2.2.1
+
+# AI
+scikit-learn==1.4.1.post1
+xgboost==2.0.3
+
+# torch==2.2.1  # Versión CPU
+torch==2.2.1+cu121 --extra-index-url https://download.pytorch.org/whl/cu121 # Versión GPU
+transformers==4.39.0
+
+# Dashboard/Visualization
+streamlit==1.32.2
+altair==5.2.0
+matplotlib==3.8.3
+
+# Network Capture & Utils
+scapy==2.5.0
+pyyaml==6.0.1  

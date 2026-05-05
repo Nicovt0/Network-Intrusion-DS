@@ -1,0 +1,24 @@
+name: NIDS-ENV
+channels:
+  - pytorch
+  - nvidia # GPU
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy=1.26.4
+  - pandas=2.2.1
+  - scikit-learn=1.4.1
+  - xgboost=2.0.3
+  - pytorch=2.2.1
+  - pytorch-cuda=12.1
+  - torchaudio=2.2.1
+  - altair=5.2.0
+  - matplotlib=3.8.3
+  - pyyaml=6.0.1
+
+  - pip
+  - pip:
+      - streamlit==1.32.2
+      - transformers==4.39.0
+      - scapy==2.5.0
