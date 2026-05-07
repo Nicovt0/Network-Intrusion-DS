@@ -6,7 +6,7 @@ channels:
   - defaults
 dependencies:
   - python=3.11
-  - numpy=1.26.4
+  - numpy=1.25.2
   - pandas=2.2.1
   - scikit-learn=1.4.1
   - xgboost=2.0.3
@@ -22,3 +22,4 @@ dependencies:
       - streamlit==1.32.2
       - transformers==4.39.0
       - scapy==2.5.0
+      - ydata-profiling>=4.18
