@@ -24,3 +24,4 @@ dependencies:
       - transformers==4.39.0
       - scapy==2.5.0
       - ydata-profiling>=4.18
+      - ipywidgets>=8.0.0
